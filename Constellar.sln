@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{931CD5EE-1F5D-4A52-A8F7-71F751534F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A89EF02B-3CBF-4D7F-AEE8-7AAD6AC7055E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Constellar.Core", "src\Constellar.Core\Constellar.Core.xproj", "{E8A28C37-8555-44FF-B6E3-A0E2C6DBA2C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A28C37-8555-44FF-B6E3-A0E2C6DBA2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A28C37-8555-44FF-B6E3-A0E2C6DBA2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A28C37-8555-44FF-B6E3-A0E2C6DBA2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A28C37-8555-44FF-B6E3-A0E2C6DBA2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8A28C37-8555-44FF-B6E3-A0E2C6DBA2C7} = {931CD5EE-1F5D-4A52-A8F7-71F751534F66}
+	EndGlobalSection
+EndGlobal
